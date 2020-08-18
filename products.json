@@ -1,6 +1,6 @@
 {
     "products": [
-        { "name": "tshirt", "code": "TSHIRT", "price": 20, "offer": "bulk" },
+        { "name": "tshirt", "code": "TSHIRT", "price": 20, "offer": "bulk", "discount": 1 },
         { "name": "mug", "code": "MUG", "price": 7.5, "offer": "standart" },
         { "name": "voucher", "code": "VOUCHER", "price": 5, "offer": "2f1" }
     ]
