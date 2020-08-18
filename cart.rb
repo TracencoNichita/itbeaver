@@ -20,9 +20,9 @@ class Checkout
     @cart.push(code)
   end
 
-  #method of getting a $1 discount when buying more than two items, like a T-shirt
+  #method of getting a $n discount when buying more than two items, like a T-shirt
   def bulk_total(product, count)
-    count > 2 ? count * (product['price']-1) : count * product['price']
+    count > 2 ? count * (product['price']-product['discount']) : count * product['price']
   end
 
   #method of getting a discount two for one
